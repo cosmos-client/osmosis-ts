@@ -4,7 +4,7 @@ rm -r proto
 rm -r proto-thirdparty
 wget https://github.com/bufbuild/buf/releases/download/v1.13.1/buf-Linux-x86_64
 sudo chmod 777 ./buf-Linux-x86_64
-./buf-Linux-x86_64 export buf.build/cosmos/cosmos-sdk:8cb30a2c4de74dc9bd8d260b1e75e176 --output ./cosmos-sdk/third_party/proto
+./buf-Linux-x86_64 export buf.build/cosmos/cosmos-sdk:8cb30a2c4de74dc9bd8d260b1e75e176 --output ./chain/proto-thirdparty
 rm ./buf-Linux-x86_64
 cp -r ./chain/proto ./
 cp -r ./chain/proto-thirdparty ./
