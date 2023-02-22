@@ -24,6 +24,7 @@ npx pbjs \
   --keep-case \
   --no-create \
   --path=./proto/ \
+  --path=./proto-thirdparty/ \
   --root=osmosis-client \
   ${proto_files[@]}
 
@@ -36,6 +37,7 @@ npx pbjs \
   --keep-case \
   --no-create \
   --path=./proto/ \
+  --path=./proto-thirdparty/ \
   --root=osmosis-client \
   ${proto_files[@]}
 
